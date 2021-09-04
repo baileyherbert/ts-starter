@@ -9,13 +9,34 @@ This is my personal starter template for TypeScript projects.
 
 ## Scripts
 
-**Development**
-- `npm run dev:watch` – Compiles and runs the application, and restarts it when the code changes.
-- `npm run dev:build` – Runs the compiler in watch mode, use the `start` command to test.
+### Development
 
-**Testing**
-- `npm test` – Runs all tests.
+Run the `dev` command to compile and start the application. The source code will be watched for changes and the application will restart automatically.
 
-**Production**
-- `npm run build` – Cleans the dist directory and runs the compiler for production.
-- `npm start` – Runs the production build.
+```
+npm run dev
+```
+
+For applications that shouldn't restart so frequently, you can use the `watch` command to start the TypeScript compiler in watch mode. Then call the `start` command from another terminal when you're ready to test.
+
+```
+npm run watch
+npm start
+```
+
+### Testing
+
+The `test` command will recursively run all tests within the tests directory.
+
+```
+npm test
+```
+
+### Building
+
+Build the application for production with the `build` command. You can then call the `start` command to run the build.
+
+```
+npm run build
+npm start
+```
