@@ -1,5 +1,17 @@
 {
-	"private": true,
+	"name": "@username/package-name",
+	"version": "1.0.0",
+	"description": "Describe your package here.",
+	"author": "Your Name <email@example.com> (https://website.org)",
+	"repository": "github:username/repository",
+	"bugs": "https://github.com/username/repository/issues",
+	"license": "MIT",
+	"main": "dist/main.js",
+	"types": "dist/main.d.ts",
+	"files": [
+		"dist/**/*"
+	],
+	"keywords": [],
 	"scripts": {
 		"build": "rimraf dist && tsc",
 		"start": "node dist/main",
