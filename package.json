@@ -13,10 +13,10 @@
 	],
 	"keywords": [],
 	"scripts": {
+		"dev": "ts-node-dev --respawn --rs src/main.ts",
 		"build": "rimraf dist && tsc",
+		"watch": "rimraf dist && tsc -w",
 		"start": "node dist/main",
-		"dev:build": "tsc -w",
-		"dev:watch": "ts-node-dev --respawn --rs src/main.ts",
 		"test": "jest"
 	},
 	"devDependencies": {
