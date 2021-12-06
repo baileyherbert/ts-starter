@@ -19,6 +19,7 @@
 		"start": "node dist/main",
 		"test": "jest"
 	},
+	"dependencies": {},
 	"devDependencies": {
 		"@types/jest": "^27.0.1",
 		"@types/node": "^14",
