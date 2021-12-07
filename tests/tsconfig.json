@@ -11,8 +11,7 @@
 
 		"declaration": false,
 		"declarationMap": false,
-		"sourceMap": false,
-		"inlineSourceMap": true,
+		"sourceMap": true,
 
 		"downlevelIteration": true,
 		"esModuleInterop": true,
