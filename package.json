@@ -6,17 +6,17 @@
 	"repository": "github:username/repository",
 	"bugs": "https://github.com/username/repository/issues",
 	"license": "MIT",
-	"main": "dist/main.js",
-	"types": "dist/main.d.ts",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
 	"files": [
 		"dist/**/*"
 	],
 	"keywords": [],
 	"scripts": {
-		"dev": "ts-node-dev --respawn --rs src/main.ts",
+		"dev": "ts-node-dev --respawn --rs src/index.ts",
 		"build": "rimraf dist && tsc",
 		"watch": "rimraf dist && tsc -w",
-		"start": "node dist/main",
+		"start": "node dist/index",
 		"test": "jest"
 	},
 	"dependencies": {},

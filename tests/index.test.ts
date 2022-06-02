@@ -1,6 +1,6 @@
-import { message } from '../src/main';
+import { message } from '../src/index';
 
-describe('main', function() {
+describe('index', function() {
 	it('says hello world', function() {
 		expect(message).toBe('Hello world!');
 	})
