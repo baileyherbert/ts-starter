@@ -34,5 +34,5 @@
 		"newLine": "lf"
 	},
 	"include": ["src/**/*.ts"],
-	"exclude": ["node_modules", "lib", "tests"]
+	"exclude": ["node_modules", "lib", "dist"]
 }

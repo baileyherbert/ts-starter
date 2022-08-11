@@ -1,4 +1,4 @@
-import { message } from '../src/index';
+import { message } from 'src';
 
 describe('index', function() {
 	it('says hello world', function() {

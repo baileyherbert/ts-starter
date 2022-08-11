@@ -32,6 +32,11 @@
 	"jest": {
 		"preset": "ts-jest",
 		"testEnvironment": "node",
+		"rootDir": ".",
+		"moduleNameMapper": {
+			"^src/?$": "<rootDir>/src/index.ts",
+			"^src/(.*)$": "<rootDir>/src/$1"
+		},
 		"globals": {
 			"ts-jest": {
 				"tsconfig": "tests/tsconfig.json"
