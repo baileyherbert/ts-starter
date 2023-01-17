@@ -4,7 +4,8 @@ This is my personal starter template for TypeScript projects.
 
 ## Installation
 
-- For normal applications – `npx degit baileyherbert/ts-starter`
+- For normal applications (esm) – `npx degit baileyherbert/ts-starter`
+- For normal applications (commonjs) – `npx degit baileyherbert/ts-starter#cjs`
 - For npm packages – `npx degit baileyherbert/ts-starter#npm`
 
 ## Scripts
