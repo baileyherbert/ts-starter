@@ -2,7 +2,7 @@
 	"private": true,
 	"type": "module",
 	"scripts": {
-		"dev": "nodemon --watch src/** --watch .env --watch .env.* --watch tsconfig.json --ext * --exec \"ts-node --esm --swc src/index.ts\"",
+		"dev": "nodemon --watch 'src' --watch '.env' --watch '.env.*' --watch 'tsconfig.json' --ext '*' --exec \"ts-node --esm --swc src/index.ts\"",
 		"build": "rimraf dist && tsc",
 		"watch": "rimraf dist && tsc -w",
 		"start": "node dist/index",
