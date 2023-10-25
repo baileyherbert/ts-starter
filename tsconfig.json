@@ -2,11 +2,10 @@
 	"compilerOptions": {
 		"outDir": "dist",
 
-		"module": "nodenext",
-		"moduleResolution": "nodenext",
+		"module": "esnext",
+		"moduleResolution": "node",
 
-		"target": "es2022",
-		"lib": ["es2022"],
+		"target": "esnext",
 
 		"declaration": true,
 		"declarationMap": false,
@@ -26,6 +25,7 @@
 		"noImplicitReturns": true,
 		"noImplicitOverride": true,
 		"importsNotUsedAsValues": "remove",
+		"forceConsistentCasingInFileNames": true,
 
 		"skipLibCheck": true,
 		"stripInternal": true,
