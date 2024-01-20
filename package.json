@@ -29,6 +29,7 @@
 		"preset": "ts-jest/presets/default-esm",
 		"testEnvironment": "node",
 		"rootDir": ".",
+		"testMatch": ["<rootDir>/tests/**/*.test.ts", "<rootDir>/tests/**/*.spec.ts"],
 		"moduleNameMapper": {
 			"^src/(.*)\\.js$": "<rootDir>/src/$1",
 			"^(\\.{1,2}/.*)\\.js$": "$1"
